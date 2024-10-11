@@ -39,6 +39,7 @@ public void hoverToSignIn(){
         Actions ac= new Actions(driver);
         ac.moveToElement(hoveringToSignIn).build().perform();
         signIn.click();
+    //this is for demo purpose
 
 }
 
