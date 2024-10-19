@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="suite">
+    <listeners>
+        <listener class-name="testComponents.Listener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/user/IdeaProjects/NEW_AmazonProject">
+
+        <groups>
+            <run>
+                <include name="SmokeTest"/>
+            </run>
+        </groups>
+
+
+    </test>
+
+    <test thread-count="5" name="Submit Order Test">
+        <classes>
+            <class name="tests.LandingPageTest"/>
+            <class name="tests.VerifySignInPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite>

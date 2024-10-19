@@ -41,6 +41,27 @@
             <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+        <dependency>
+            <groupId>com.relevantcodes</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>2.41.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+            <scope>provided</scope>
+        </dependency>
+
 
     </dependencies>
     <build>
@@ -71,9 +92,11 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <!--                        Test Runner File-->
                     <suiteXmlFiles>
-                        <!--                       <suiteXmlFile>target/test-classes/testng.xml</suiteXmlFile>&ndash;&gt;-->
+                        <!--                       <suiteXmlFile>target/tests-classes/testng.xml</suiteXmlFile>&ndash;&gt;-->
+<!--                        <suiteXmlFile>src/tests/java/resouces/testng.xml</suiteXmlFile>&ndash;&gt;-->
                         <suiteXmlFile>src/test/java/resouces/testng.xml</suiteXmlFile>-->
-                        <!--                            <suiteXmlFile>target/test-classes/ChaseRegressionTestRunner.xml</suiteXmlFile>-->
+
+                        <!--                            <suiteXmlFile>target/tests-classes/ChaseRegressionTestRunner.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
 

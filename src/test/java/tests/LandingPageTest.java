@@ -1,8 +1,11 @@
+package tests;
+
 import com.amazon.LandingPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import testComponents.BrowserTest;
 
-public class LandingPageTest extends BrowserTest{
+public class LandingPageTest extends BrowserTest {
 
     LandingPage lp;
 

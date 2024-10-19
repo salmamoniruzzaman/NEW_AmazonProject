@@ -1,9 +1,12 @@
+package tests;
+
 import com.amazon.LandingPage;
 import com.amazon.SignIn;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import testComponents.BrowserTest;
 
-public class VerifySignInPageTest extends BrowserTest{
+public class VerifySignInPageTest extends BrowserTest {
     @Test(groups = {"Regression"})
     public void verifySigninPage() throws InterruptedException {
         LandingPage lp= new LandingPage(driver);

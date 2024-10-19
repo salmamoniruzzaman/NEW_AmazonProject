@@ -1,10 +1,13 @@
+package tests;
+
 import com.amazon.LandingPage;
 import com.amazon.SignIn;
 import com.amazon.SignUpPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import testComponents.BrowserTest;
 
-public class SignUpPageTest extends BrowserTest{
+public class SignUpPageTest extends BrowserTest {
 
     @Test(groups = {"Regression"})
     public void verifySignUpPageTest() throws InterruptedException{

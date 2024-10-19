@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel = "tests" name="All Test Suite">
+<suite parallel = "tests" name="suite">
     <test verbose="2" preserve-order="true" name="C:/Users/user/IdeaProjects/WebAutoMationFrameWork2024">
 
         <classes>
-            <class name="LandingPageTest"/>
+            <class name="tests.LandingPageTest"/>
 
         </classes>
     </test>
@@ -12,13 +12,13 @@
 
         <classes>
 
-            <class name="VerifySignInPageTest"/>
+            <class name="tests.VerifySignInPageTest"/>
         </classes>
     </test>
     <test verbose="2" preserve-order="true" name="C:/Users/user/IdeaProjects/WebAutoMationFrameWork2024">
 
         <classes>
-            <class name="SignUpPageTest"/>
+            <class name="tests.SignUpPageTest"/>
         </classes>
     </test> <!-- Test -->
 </suite>
